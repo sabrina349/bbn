@@ -1,0 +1,151 @@
+<style>
+	body{
+		
+	}
+	#wrapper{
+		background-color:white;
+		margin-right:120px;
+		margin-left:120px
+	}
+	.header{
+		background-color:white;
+		color:teal;
+		height:120px;
+	}
+	.logo img{
+		float:left;
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-right:0px;
+		height:100%;
+		width:170px;
+	}
+	h1{
+		text-align:center;
+		padding-top:40px;
+		padding-left:0px;
+	}
+	.nav{
+		height:50px;
+		padding-top:2px;
+		border-bottom:4px solid darkred;
+		background-color:black;
+	}
+	.nav a{
+		text-decoration:none;
+		color:white;
+		padding-left:10px;
+		padding-right:10px;
+		text-align:left;
+	}
+	.nav a:hover{
+		background-color:gray;
+		padding-top:16px;
+		padding-bottom:16px;
+	}
+	.nav li{
+		list-style-type:none;
+		float:left;
+		margin-left:0px;
+	}
+	 *{
+		box-sizing:border-box;
+	 }
+	 .column{
+		float:left;
+		padding-top:10px;
+		height:480px;
+		font-family:times new roman;
+		background-color:white;
+	 }
+	.left{
+		width:60%;
+		float:left;
+		height:100%;
+	 }
+	 .right{
+		width:40%;
+		float:right;
+		height:100%;
+	 }
+	 .right ul{
+		height:100%;
+		padding-top:40px;
+		list-style-type:none;
+		padding-left:1px;	
+	}
+	.right a{
+		text-decoration:none;
+	}
+	.list li{
+		background-color:blueviolet;	
+		list-style-type:none;
+		float:left;
+		margin-inline-start:1px;
+		height:35px;
+		padding-bottom:5px;
+		padding-top:5px;
+	}
+	.list a{
+		padding-left:29.6px;
+		padding-right:29.5px;
+		text-decoration:none;
+		font-size:20px;
+		text-decoration:bold;
+		color:white;
+		cursor:pointer;
+	}
+	.list a:hover{
+		background-color:teal;
+		padding-top:5px;
+		padding-bottom:9px;
+	}
+	 .row:after{
+		content:"";
+		display:table;
+		clear:both;
+	 }
+	  *{
+		box-sizing:border-box;
+	 }
+	 .column{
+		height:500px;
+		width:100%;
+		background-color:dodgerblue;
+		float:left;
+		font-family:times new roman;
+	 }
+	 .r, .l{
+		height:70%;
+		width:30%;
+		float:left;
+		line-height:50px;
+		padding-right:10px;
+		text-align:left;
+		padding-left:3%;
+	 }
+	 .l ul{
+		border-bottom:2px solid teal;
+		border-top:2px solid teal;
+		border-left:2px solid teal;
+		border-right:2px solid teal;
+	 }
+	 .l h1, .r h1{
+		text-align:left;
+	 }
+	 .m{
+		float:right;
+		width:40%;
+		height:70%;
+		padding-left:3%;
+		line-height:50px;
+	 }
+	  .m h1{
+		text-align:left;
+	 }
+	 row:after{
+		content:"";
+		display:table;
+		clear:both;	 
+	 }
+</style>
